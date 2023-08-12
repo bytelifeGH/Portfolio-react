@@ -32,41 +32,42 @@
 .App-link {
   color: #61dafb;
 }
+.box{
+  position: relative;
+  z-index: 100;
+  border: 10px solid black;
+  height: 100vh;
+}
 .center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
  background-color: whitesmoke;
 }
-/* .topleft{
-  position: absolute;
-  width: 60%;
-  height: 40%;
-  top: 0;
-  left: 0;
-  border: 1px solid black;
+.topleft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: whitesmoke;
 }
 .bottomleft{
-  position: absolute;
-  width: 40%;
-  height: 60%;
-  bottom: 0;
-  left: 0;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: whitesmoke;
 }
 .bottomright{
-  position: absolute;
-  width: 60%;
-  height: 40%;
-  bottom: 0;
-  right: 0;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: whitesmoke;
 }
 .topright{
-  position: absolute;
-  width: 40%;
-  height: 60%;
-  top: 0;
-  right: 0;
-  border: 1px solid black;
-} */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: whitesmoke;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

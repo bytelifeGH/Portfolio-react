@@ -9,7 +9,7 @@ export default function Home(){
         position: "absolute",
         top: "40%",
         left: "40%",
-        border: "1px solid black",
+        border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
         transition:"all 0.5s"
@@ -20,7 +20,7 @@ export default function Home(){
         position: "absolute",
         top: "0",
         left: "0",
-        border: "1px solid black",
+        border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
         transition:"all 0.5s"
@@ -31,7 +31,7 @@ export default function Home(){
         position: "absolute",
         bottom: "0%",
         left: "0%",
-        border: "1px solid black",
+        border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
         transition:"all 0.5s"
@@ -42,7 +42,7 @@ export default function Home(){
         position: "absolute",
         bottom: "0%",
         right: "0%",
-        border: "1px solid black",
+        border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
         transition:"all 0.5s"
@@ -53,7 +53,7 @@ export default function Home(){
         position: "absolute",
         top: "0%",
         right: "0%",
-        border: "1px solid black",
+        border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
         transition:"all 0.5s"
@@ -68,7 +68,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(-30%, -20%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle: "preserve-3d",
                     transition:"all 0.5s"
@@ -83,7 +83,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -96,7 +96,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -109,7 +109,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -122,7 +122,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -140,7 +140,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -155,7 +155,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0",
                     left: "0",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -170,7 +170,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -185,7 +185,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -200,7 +200,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -219,7 +219,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(50%, 50%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle: "preserve-3d",
                     transition:"all 0.5s"
@@ -235,7 +235,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -249,7 +249,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -263,7 +263,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -277,7 +277,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -295,7 +295,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(75%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle: "preserve-3d",
                     transition:"all 0.5s"
@@ -311,7 +311,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -325,7 +325,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -339,7 +339,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -353,7 +353,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -371,7 +371,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(-20%, -80%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle: "preserve-3d",
                     transition:"all 0.5s"
@@ -387,7 +387,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -401,7 +401,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -415,7 +415,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -429,7 +429,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
@@ -447,7 +447,7 @@ export default function Home(){
                     position: "absolute",
                     top: "40%",
                     left: "40%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(-80%, 60%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle: "preserve-3d",
                     transition:"all 0.5s"
@@ -463,7 +463,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -477,7 +477,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     left: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -491,7 +491,7 @@ export default function Home(){
                     position: "absolute",
                     bottom: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transition:"all 0.5s"
                   }
                   );
@@ -505,7 +505,7 @@ export default function Home(){
                     position: "absolute",
                     top: "0%",
                     right: "0%",
-                    border: "1px solid black",
+                    border: "3px solid black",
                     transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                     transformstyle:"preserve-3d",
                     transition:"all 0.5s"
