@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Home from "./components/home";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,7 +12,9 @@ function App() {
     setShowHome(false);
   }
 
+
   return (
+    
     <BrowserRouter>
     <>
         <Routes>
