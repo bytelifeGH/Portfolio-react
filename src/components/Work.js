@@ -43,13 +43,8 @@ function Work() {
                                     <span className="work-category">Lorem.</span>
                                 </div>
                             </div>
-                            <div className="card__overlay">
-                                <div class="overlay__text">
-                                    <h3>Mountain Trips</h3>
-                                    <p>Plan your next adventure</p>
-                                  
-                                </div>
-                            </div>
+                            <div className="overlay"></div>
+                            
 
                         </li>
                         <li>
@@ -61,6 +56,7 @@ function Work() {
                                 </div>
 
                             </div>
+                            <div className="overlay"></div>
 
                         </li>
                         <li>
@@ -72,7 +68,7 @@ function Work() {
                                 </div>
 
                             </div>
-
+                            <div className="overlay"></div>
                         </li>
                         <li>
                             <div className="work-contents">
@@ -83,7 +79,7 @@ function Work() {
                                 </div>
 
                             </div>
-
+                            <div className="overlay"></div>
                         </li>
                         <li>
                             <div className="work-contents">
@@ -94,7 +90,7 @@ function Work() {
                                 </div>
 
                             </div>
-
+                            <div className="overlay"></div>
                         </li>
                         <li>
                             <div className="work-contents">
@@ -105,7 +101,7 @@ function Work() {
                                 </div>
 
                             </div>
-
+                            <div className="overlay"></div>
                         </li>
                         
                     </ul>
