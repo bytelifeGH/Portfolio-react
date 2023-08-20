@@ -14,7 +14,9 @@ code {
 }
 /* work section top */
 body{
+  width: 100%;
   background-color: #d9d9d9;
+  overflow-x: hidden;
 }
 /* =====================   WORK SECTION   ================================ */
 .flex-just-align {
@@ -270,6 +272,7 @@ body{
 /* =====================     GOALS SECTION    ================================ */
 
 .Our-Goals{
+  font-family: "Poppins", sans-serif;
   margin-bottom: 2rem;
   color: #eeeeee;
   font-size: 4rem;
@@ -278,9 +281,9 @@ body{
 }
 
 .our-goals-container{
-  max-width: 1200px;
+  max-width: 100%;
   height: auto;
-  margin: auto;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -289,24 +292,37 @@ body{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   gap: 2vmin;
   overflow: hidden;
 }
 .left-shift{
-  justify-content: start;
+  justify-content: center;
 }
 .right-shift{
-  justify-content: end;
+  justify-content: flex-end;
+  background-color: #eeeeee;
 }
 .left-side{
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 .right-side{
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-wrap: wrap ;
+  width: 40%;
+}
+.right-side h1{
+  color: #222831;
+  font-weight:bold;
+  font-size: 4.5vmin;
+}
+.right-side p{
+  color: #222831;
+  font-weight: 700;
+  font-size: 2.5vmin;
+
 }
 
 /* RESPONSIVE FOR 1200px TO 1400px  */
