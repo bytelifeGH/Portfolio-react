@@ -26,12 +26,12 @@ function Work() {
                     Explore our portfolio of innovative web and app projects
                 </h4>
             </div>
-            <div data-aos="fade-up" data-aos-duration="2000" className="width-full work-section">
+            <div  className="width-full work-section">
                 <div className="work-section-mid">
                     <ul>
                         {
                             workSectionContent.map((work, index) => (
-                                <li key={work.id}>
+                                <li data-aos="fade-up" data-aos-duration="1000" data key={work.id}>
                                     <div className="work-contents">
                                         <div className="work-image">{work.image}</div>
 
