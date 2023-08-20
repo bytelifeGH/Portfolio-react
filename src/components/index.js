@@ -70,3 +70,36 @@ export const workSectionContent = [
         category:"lorem."
     },
 ];
+
+export const serviceContent = [
+    {
+        id:"service1",
+        image:vision,
+        title:"Web Development",
+        content:"Building Dreams One Click at a Time: Unleash Your Business Potential with Our Web Development."
+    },
+    {
+        id:"service2",
+        image:vision,
+        title:"App Development",
+        content:"Your app is your business's next big opportunity. We help you make it happen."
+    },
+    {
+        id:"service3",
+        image:vision,
+        title:"Social Media Managment",
+        content:"Ignite Your Social Presence: Where Your Brand's Story Comes to Life."
+    },
+    {
+        id:"service4",
+        image:vision,
+        title:"Brand Managment",
+        content:"Guiding Brands to Greatness: Your Success Story, Crafted by Expert Brand Management."
+    },
+    {
+        id:"service5",
+        image:vision,
+        title:"Talent Managment",
+        content:"Unleash Potential, Ignite Success: Nurturing Talent through Strategic Talent Management"
+    }
+];
