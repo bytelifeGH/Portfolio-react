@@ -14,6 +14,40 @@ function OurGoals() {
         setHover(false);
     }
 
+
+const Service = ({ image, title, content }) => (
+    <div className="webDev-service">
+      <img src={image} alt="" />
+      <h2>{title}</h2>
+      <p>{content}</p>
+    </div>
+  );
+  
+  const ServicesContainer = ({ serviceContent }) => (
+    <div className="services-container">
+      <div className="service-container-align"></div>
+      <div className="services-left-col">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" className="services-left-content">
+          <Service {...serviceContent[0]} />
+          <Service {...serviceContent[4]} />
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1000" className="services-mid-col">
+        <div className="services-mid-content">
+          <img src={smm} alt="" />
+          <Service {...serviceContent[1]} />
+        </div>
+      </div>
+      <div data-aos="zoom-in-left" data-aos-duration="1000" className="services-right-col">
+        <div className="services-right-content">
+          <Service {...serviceContent[2]} />
+          <Service {...serviceContent[3]} />
+        </div>
+      </div>
+    </div>
+  );
+  
+
     return (
         <>
             <div className="width-full height-full">
@@ -36,49 +70,7 @@ function OurGoals() {
                         </div>
                     ))}
                 </div>
-                <div className="services-container">
-                    <div className="service-container-align"></div>
-                    <div className="services-left-col">
-                        <div data-aos="zoom-in-right" data-aos-duration="1000" className="services-left-content">
-                        <div className="webDev-service">    
-                                <img src={serviceContent[0].image} alt="" />
-                                <h2>{serviceContent[0].title}</h2>
-                                <p>{serviceContent[0].content}</p>
-                            </div>
-
-                            <div className="webDev-service">
-                                <img src={serviceContent[0].image} alt="" />
-                                <h2>{serviceContent[4].title}</h2>
-                                <p>{serviceContent[4].content}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" className="services-mid-col">
-                        <div className="services-mid-content">
-                            <img src={smm} alt="" />
-                            <div className="webDev-service">
-                                <img src={serviceContent[1].image} alt="" />
-                                <h2>{serviceContent[1].title}</h2>
-                                <p>{serviceContent[1].content}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos="zoom-in-left" data-aos-duration="1000" className="services-right-col">
-                        <div className="services-right-content">
-                            <div className="webDev-service">
-                                <img src={serviceContent[2].image} alt="" />
-                                <h2>{serviceContent[2].title}</h2>
-                                <p>{serviceContent[2].content}</p>
-                            </div>
-
-                            <div className="webDev-service">
-                                <img src={serviceContent[3].image} alt="" />
-                                <h2>{serviceContent[3].title}</h2>
-                                <p>{serviceContent[3].content}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ServicesContainer serviceContent={serviceContent}/>
             </div>
             <div className={`work-last-container ${hover ? "hover-parent-class" : "no-hover-parent-class"}`}>
                 <div className="work-last-container-content" onMouseEnter={onHovering} onMouseLeave={offHovering} data-aos="zoom-in" >
