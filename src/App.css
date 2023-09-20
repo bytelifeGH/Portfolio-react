@@ -45,28 +45,106 @@
  background-color: whitesmoke;
 }
 .topleft{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
- background-color: whitesmoke;
+  background-color: whitesmoke;
+}
+.tlin{
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  z-index: -10;
+  left: 70%;
+  /* transform: translateX(300%); */
+  overflow: hidden;
+  border: 2px solid black;
+  transform: scaleX(0) translateX(122%);
+  transform-origin: right;
+  transition: all 1s;
+}
+.topleft:hover .tlin{
+  transform: scaleX(1) translateX(5%);
+  /* transform: translateX(122%); */
 }
 .bottomleft{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
  background-color: whitesmoke;
+}
+.blin{
+    position: absolute;
+    height: 33%;
+    width: 100%;
+    top: 0%;
+    z-index: -10;
+    overflow: hidden;
+    border: 2px solid black;
+    transform: scaleY(0) translateY(0%);
+    transform-origin: top;
+    transition: all 1s;
+  }
+
+.bottomleft:hover .blin{
+  transform: scaleY(1) translateY(0%);
 }
 .bottomright{
   display: flex;
+  z-index: 2;
   justify-content: center;
   align-items: center;
  background-color: whitesmoke;
 }
+.brin{
+  position: absolute;
+  height: 100%;
+  width: 31.5%;
+  left: 0%;
+  z-index: -10;
+  overflow: hidden;
+  border: 2px solid black;
+  transform: scaleX(0) translateX(0%);
+  transform-origin: left;
+  transition: all 1s;
+}
+.bottomright:hover .brin{
+  z-index: -99;
+  transform: scaleX(1) translateX(0%);
+}
+/* .tlin{
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  z-index: -10;
+  transform: translateX(300%);
+  overflow: hidden;
+  border: 2px solid black;
+  transition: all 1s;
+} */
 .topright{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
  background-color: whitesmoke;
+}
+.trin{
+  position: absolute;
+  height: 28%;
+  width: 100%;
+  bottom: 0%;
+  z-index: -10;
+  overflow: hidden;
+  border: 2px solid black;
+  transform: scaleY(0) translateY(0%);
+  transform-origin: bottom;
+  transition: all 1s;
+}
+.topright:hover .trin{
+  transform: scaleY(1) translateY(0%);
 }
 @keyframes App-logo-spin {
   from {
@@ -75,4 +153,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width:768px){
+  .tlin{
+    width: 34%;
+    left: 65%;
+    transform: scaleX(1) translateX(5%);
+  }
+  .topleft:hover .tlin{
+    width: 30%;
+    left: 70%;
+  }
+  .blin{
+    height: 33.5%;
+    top: 0%;
+    transform: scaleY(1) translateY(0%);
+  }
+  .bottomleft:hover .blin{
+    height: 33.5%;
+    top: 0%;
+  }
+  .brin{
+    width: 34%;
+    left: 0%;
+    transform: scaleX(1) translateX(0%);
+  }
+  .bottomright:hover .brin{
+    width: 32%;
+    left: 0%;
+  }
+  .trin{
+    height: 33.5%;
+    bottom: 0%;
+    transform: scaleY(1) translateY(0%);
+  }
+  .topright:hover .trin{
+    height: 28%;
+    bottom: 0%;
+  }
+  
 }
