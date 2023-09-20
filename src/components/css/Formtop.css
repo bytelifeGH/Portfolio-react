@@ -1,0 +1,9 @@
+.formtop{
+    position: relative;
+    z-index: 99;
+    left: 5vw;
+    display: flex;
+    background-color: #00755E;
+    width: 40vw;
+    height: 50vh;
+}

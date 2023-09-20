@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #fffe7a 50%, #00755E 50%);
+  }

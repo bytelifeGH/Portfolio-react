@@ -24,7 +24,8 @@ export default function Home(){
         border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
-        transition:"all 0.5s"
+        transition:"all 0.5s",
+        zIndex:"1"
       })
       let [style3, setstyle3] = useState({
         width: "40%",
@@ -35,7 +36,8 @@ export default function Home(){
         border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
-        transition:"all 0.5s"
+        transition:"all 0.5s",
+        zIndex:"-1"
       })
       let [style4, setstyle4] = useState({
         width: "60%",
@@ -46,7 +48,8 @@ export default function Home(){
         border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
-        transition:"all 0.5s"
+        transition:"all 0.5s",
+        zIndex:"1"
       })
       let [style5, setstyle5] = useState({
         width: "40%",
@@ -57,7 +60,8 @@ export default function Home(){
         border: "3px solid black",
         transform: "translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
         transformstyle:"preserve-3d",
-        transition:"all 0.5s"
+        transition:"all 0.5s",
+        zIndex:"1"
       })
     function hover1(){
         setstyle1(current => {
@@ -244,7 +248,7 @@ export default function Home(){
         setstyle3(current => {
             return (
                 {
-                    zIndex:"1",
+                    zIndex:"-1",
                     width: "50%",
                     height: "50%",
                     position: "absolute",
@@ -258,7 +262,7 @@ export default function Home(){
         setstyle4(current => {
             return (
                 {
-                    zIndex:"1",
+                    zIndex:"2",
                     width: "50%",
                     height: "30%",
                     position: "absolute",
@@ -320,7 +324,7 @@ export default function Home(){
         setstyle3(current => {
             return (
                 {
-                    zIndex:"1",
+                    zIndex:"-1",
                     width: "55%",
                     height: "60%",
                     position: "absolute",
@@ -396,7 +400,7 @@ export default function Home(){
         setstyle3(current => {
             return (
                 {
-                    zIndex:"1",
+                    zIndex:"-1",
                     width: "36%",
                     height: "76%",
                     position: "absolute",
@@ -472,7 +476,7 @@ export default function Home(){
         setstyle3(current => {
             return (
                 {
-                    zIndex:"1",
+                    zIndex:"-1",
                     width: "24%",
                     height: "48%",
                     position: "absolute",
@@ -518,10 +522,10 @@ export default function Home(){
         <>
         <div className="box">
             <a href="/" className="center" onMouseEnter={hover1} onMouseLeave={recover1} style={style1}>Mili</a>
-            <Link to="/work" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work</Link>
-            <Link to='/about' className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About</Link>
-            <Link to='/goals' className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Goals</Link>
-            <Link to='/contact' className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Contact Us</Link>
+            <Link to="/work" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work<div className="tlin">This is the work page</div></Link>
+            <Link to='/about' className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About<div className="blin">This is the work page</div></Link>
+            <Link to='/goals' className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Goals<div className="brin">This is the work page</div></Link>
+            <Link to='/contact' className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Contact Us<div className="trin">This is the work page</div></Link>
         </div>
         </>
     );
