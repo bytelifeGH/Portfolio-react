@@ -73,7 +73,7 @@ const Service = ({ image, title, content }) => (
                 <ServicesContainer serviceContent={serviceContent}/>
             </div>
             <div className={`work-last-container ${hover ? "hover-parent-class" : "no-hover-parent-class"}`}>
-                <div className="work-last-container-content" onMouseEnter={onHovering} onMouseLeave={offHovering} data-aos="zoom-in" >
+                <div className="work-last-container-content" data-aos="zoom-in" >
                     <h1 className={`work-last-container-content-first ${hover ? "hover-class" : "no-hover"}`}>Like What You See?</h1>
                     <Link to="/contact" className={`work-last-container-content-second-Link ${hover ? "hover-class" : "no-hover"}`} >Contact Us</Link>
                 </div>
