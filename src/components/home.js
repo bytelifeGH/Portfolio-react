@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
+import { Link } from "react-router-dom"
 
 export default function Home(){
     let [style1, setstyle1] = useState({
@@ -517,10 +518,10 @@ export default function Home(){
         <>
         <div className="box">
             <a href="/" className="center" onMouseEnter={hover1} onMouseLeave={recover1} style={style1}>Mili</a>
-            <a href="/" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work</a>
-            <a href="/" className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About</a>
-            <a href="/" className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Community</a>
-            <a href="/" className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Connect</a>
+            <Link to="/work" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work</Link>
+            <Link to='/about' className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About</Link>
+            <Link to='/goals' className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Goals</Link>
+            <Link to='/contact' className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Contact Us</Link>
         </div>
         </>
     );
