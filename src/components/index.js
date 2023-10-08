@@ -1,4 +1,5 @@
 import vision from "../images/vision.svg"
+import dummy from "../images/kindpng_2524695.png"
 export const ourGoalsContent = [
     {
         id:"goal1",
@@ -101,5 +102,32 @@ export const serviceContent = [
         image:vision,
         title:"Talent Managment",
         content:"Unleash Potential, Ignite Success: Nurturing Talent through Strategic Talent Management"
+    }
+];
+
+export const memberDetails = [
+    {
+        id:"member1",
+        image:dummy,
+        name:"Shreyas Mohanty",
+        post:"Technical Member",
+        instagramLink:"https://www.instagram.com/_.shreyas0228._/",
+        linkedinLink:"https://www.linkedin.com/in/shreyas-mohanty-8a899524a"
+    },
+    {
+        id:"member2",
+        image:dummy,
+        name:"Saumya Gupta",
+        post:"Technical Member",
+        instagramLink:"https://www.instagram.com/_.shreyas0228._/",
+        linkedinLink:"https://www.linkedin.com/in/shreyas-mohanty-8a899524a"
+    },
+    {
+        id:"member3",
+        image:dummy,
+        name:"Satyaprakash",
+        post:"Content Member",
+        instagramLink:"https://www.instagram.com/_.shreyas0228._/",
+        linkedinLink:"https://www.linkedin.com/in/shreyas-mohanty-8a899524a"
     }
 ];
