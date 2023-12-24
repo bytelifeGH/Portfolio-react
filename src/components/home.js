@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../App.css'
 import { Link } from "react-router-dom"
+import Svganime from '../constants/Svganime'
 
 export default function Home(){
     let [style1, setstyle1] = useState({
@@ -521,11 +522,11 @@ export default function Home(){
     return (
         <>
         <div className="box">
-            <a href="/" className="center" onMouseEnter={hover1} onMouseLeave={recover1} style={style1}>Mili</a>
-            <Link to="/work" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work<div className="tlin">This is the work page</div></Link>
-            <Link to='/about' className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About<div className="blin">This is the work page</div></Link>
-            <Link to='/goals' className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Goals<div className="brin">This is the work page</div></Link>
-            <Link to='/contact' className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Contact Us<div className="trin">This is the work page</div></Link>
+            <a href="/" className="center" onMouseEnter={hover1} onMouseLeave={recover1} style={style1}>Mili <div className="svgM"><Svganime></Svganime></div></a>
+            <Link to="/work" className="topleft" onMouseEnter={hover2} onMouseLeave={recover1} style={style2}>Work<div className="svgM"><Svganime></Svganime></div><div className="tlin">This is the work page</div></Link>
+            <Link to='/about' className="bottomleft" onMouseEnter={hover3} onMouseLeave={recover1} style={style3}>About<div className="svgM"><Svganime></Svganime></div><div className="blin">This is the work page</div></Link>
+            <Link to='/goals' className="bottomright" onMouseEnter={hover4} onMouseLeave={recover1} style={style4}>Goals<div className="svgM"><Svganime></Svganime></div><div className="brin">This is the work page</div></Link>
+            <Link to='/contact' className="topright" onMouseEnter={hover5} onMouseLeave={recover1} style={style5}>Contact Us<div className="svgM"><Svganime></Svganime></div><div className="trin">This is the work page</div></Link>
         </div>
         </>
     );

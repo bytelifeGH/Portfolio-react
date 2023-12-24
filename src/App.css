@@ -24,6 +24,23 @@
   justify-content: center;
   align-items: center;
  background-color: whitesmoke;
+ overflow: hidden;
+}
+
+.svgM{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -4%;
+  z-index: -10;
+  overflow: hidden;
+  transform: scaleY(0) translateY(0%);
+  transform-origin: bottom;
+  transition: all 1s;
+}
+
+.center:hover .svgM{
+  transform: scaleY(1);
 }
 .topleft{
   position: relative;
@@ -50,6 +67,12 @@
   transform: scaleX(1) translateX(5%);
   /* transform: translateX(122%); */
 }
+
+.topleft:hover .svgM{
+  transform: scaleY(1);
+}
+
+
 .bottomleft{
   display: flex;
   justify-content: center;
@@ -72,6 +95,10 @@
 
 .bottomleft:hover .blin{
   transform: scaleY(1) translateY(0%);
+}
+
+.bottomleft:hover .svgM{
+  transform: scaleY(1);
 }
 .bottomright{
   display: flex;
@@ -96,6 +123,10 @@
 .bottomright:hover .brin{
   z-index: -99;
   transform: scaleX(1) translateX(0%);
+}
+
+.bottomright:hover .svgM{
+  transform: scaleY(1);
 }
 /* .tlin{
   position: absolute;
@@ -128,6 +159,11 @@
 }
 .topright:hover .trin{
   transform: scaleY(1) translateY(0%);
+}
+
+
+.topright:hover .svgM{
+  transform: scaleY(1);
 }
 @keyframes App-logo-spin {
   from {
